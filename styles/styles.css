@@ -1,3 +1,10 @@
+.marco, #formulario, header {
+  border-top: 10px solid #000000;
+  border-bottom: 10px solid #000000;
+  border-right: 10px solid #5a5a5a;
+  border-left: 10px solid #5a5a5a;
+}
+
 * {
   font-family: "Quicksand", sans-serif;
   box-sizing: border-box;
@@ -8,10 +15,6 @@ header {
   flex-direction: column;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8470588235);
-  border-top: 10px solid #000000;
-  border-bottom: 10px solid #000000;
-  border-right: 10px solid #5a5a5a;
-  border-left: 10px solid #5a5a5a;
 }
 
 nav {
@@ -101,7 +104,7 @@ a {
   border-radius: 10px;
   background-color: #CFD2CF;
   background: linear-gradient(0deg, #CFD2CF 15%, rgb(248, 154, 154) 60%, rgb(250, 118, 118) 100%);
-  transition: all 1s;
+  transition: all 2s;
 }
 .contenedor .prod {
   display: flex;
@@ -135,6 +138,13 @@ legend {
   border: 2px solid rgba(235, 29, 53, 0.2196078431);
 }
 
+.destacado {
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #F5EDDC;
+}
+
 label {
   margin: 6px;
 }
@@ -157,10 +167,6 @@ input {
   height: 650px;
   background-image: url("../images/notas.jpg");
   width: 100%;
-  border-top: 10px solid #000000;
-  border-bottom: 10px solid #000000;
-  border-right: 10px solid #5a5a5a;
-  border-left: 10px solid #5a5a5a;
 }
 
 .fondo_claro {
@@ -168,10 +174,6 @@ input {
 }
 
 .marco {
-  border-top: 10px solid #000000;
-  border-bottom: 10px solid #000000;
-  border-right: 10px solid #5a5a5a;
-  border-left: 10px solid #5a5a5a;
   padding: 0px;
   margin-top: 0px;
   width: 60%;
@@ -185,10 +187,6 @@ input {
 
 .marco_fino {
   display: flex;
-  border-top: 4px solid #000000;
-  border-bottom: 4px solid #000000;
-  border-right: 4px solid #5a5a5a;
-  border-left: 4px solid #5a5a5a;
   padding: 10px;
   width: 100%;
   flex-wrap: wrap;
