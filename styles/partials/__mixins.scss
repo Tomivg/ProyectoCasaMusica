@@ -1,0 +1,7 @@
+@mixin estilofooter($colorFondo, $borde) {
+    display: flex;
+    justify-content: start;
+    background-color:$colorFondo ;
+    border-top:$borde;
+    margin-top: 20px;  
+} 

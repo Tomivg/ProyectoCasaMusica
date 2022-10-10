@@ -1,0 +1,6 @@
+%marcoPorDefecto {
+    border-top: 10px solid map-get($colores, negro);
+    border-bottom: 10px solid map-get($colores, negro);
+    border-right: 10px solid map-get($colores, grisFormMarc);
+    border-left: 10px solid map-get($colores, grisFormMarc);
+}

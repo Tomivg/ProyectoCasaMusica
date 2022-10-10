@@ -52,9 +52,14 @@ nav ul li a {
   border: 6px solid rgba(235, 29, 53, 0.5058823529);
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #F5EDDC;
   background-image: url(../images/partitura.jpg);
+  overflow-x: hidden;
 }
 
 section #populares {
