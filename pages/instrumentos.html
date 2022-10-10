@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="tienda, musica, instrumentos, guitarra, bateria, saxophone">
     <meta name="description" content="Sitio de casa de musica de Rosario, especializada en ventas de instrumentos musicales de primeras marcas, con servicios amplios, desde ventas, hasta mantenimiento de instrumentos.">
+     <!-- BOOTSTRAP -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <!-- CSS -->
     <link rel="stylesheet" href=
     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="../styles/styles.css">
@@ -16,27 +19,31 @@
     <title>Instrumentos</title>
 </head>
 <body>
-    <header>
-        <img src="../images/logo.png" alt="Logo" width="200px" height="100px" class="logo">
-        <nav>
-            <ul>
-                <li><a href="instrumentos.html">Instrumentos y accesorios</a>
+    <header class="row">
+        <div class="col-sm-3 col-md-3 col-5">
+            <img src="./images/logo.png" alt="Logo" class="logo" height="120px" width="100px" >
+        </div>
+        <div class="col-xl-12 col-sm-12 col-7">
+            <nav>
+                <ul>
+                    <li><a href="./pages/instrumentos.html">Instrumentos y accesorios</a>
 
-                </li>
-                <li><a href="servicios.html">Otros servicios</a>
+                    </li>
+                    <li><a href="./pages/servicios.html">Otros servicios</a>
 
-                </li>
-                <li><a href="../index.html">Inicio</a>
+                    </li>
+                    <li><a href="index.html">Inicio</a>
 
-                </li>
-                <li><a href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li><a href="./pages/nosotros.html">Nosotros</a>
 
-                </li>
-                <li><a href="contacto.html">Contacto</a>
+                    </li>
+                    <li><a href="./pages/contacto.html">Contacto</a>
 
-                </li>
-            </ul>
-        </nav>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -82,18 +89,18 @@
 
     </section>
     </main>
-    <footer id="footer_instrumentos">
-        <div class="footer_elements">
+    <footer class="row text-center">
+        <div class="footer_elements icons col-12 col-md-2 col-sm-2">
             <a href="https://es-la.facebook.com/" class="fa fa-facebook"></a>
             <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
             <a href="https://www.whatsapp.com/?lang=es" class="fa fa-whatsapp"></a>
         </div>
 
-        <div class="footer_elements">
+        <div class="footer_elements col-12 col-md-6 col-sm-6">
         <p>©2022 Desarrollado y administrado por Tomás Vergara.</p>
         </div>
 
-        <div class="footer_elements">
+        <div class="footer_elements col-12 col-md-4 col-sm-4">
             <ul><h3 class="subrayado">Contacto: </h3></ul>
             <li>Email: FunkMusica@gmail.com</li>
             <li>Dirección: Riobamba 3210, Rosario, Santa Fe</li>
@@ -101,5 +108,7 @@
         </ul>
         </div>
     </footer>
+<!-- JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
