@@ -193,7 +193,9 @@ input {
 .marco_fino {
   display: flex;
   padding: 10px;
-  width: 100%;
+  width: 96%;
+  border: solid;
+  margin: 10px;
   flex-wrap: wrap;
 }
 .marco_fino .linea {
