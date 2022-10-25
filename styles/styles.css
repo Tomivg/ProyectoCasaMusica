@@ -121,8 +121,12 @@ a {
   width: 100%;
 }
 
+.instr {
+  width: 20%;
+}
+
 p {
-  text-align: right;
+  text-align: center;
 }
 
 .icons {
